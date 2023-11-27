@@ -1,0 +1,182 @@
+body {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.container1 {
+    background-color: #ffc017;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav li {
+    display: inline;
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav button {
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+}
+
+.h_line { width:100%; height:1px; background-color: black;}
+
+
+.container2 {
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header {
+
+    padding: 100px;
+}
+
+header h2 {
+
+    font-family: 'Spectral', serif;
+    font-weight: 400;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+header p {
+
+margin-bottom: 20px;
+}
+
+header button {
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+
+}
+
+
+.M {
+    height: 400px;
+    }
+    
+
+.container3 {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.container3 h2 {
+
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+  
+}
+
+
+.article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 33%;
+   }
+   
+   .article .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   }
+   
+   .article .author {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+   }
+   
+   .article .date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+   }
+   
+   .author img {
+
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-right: 10px;
+    align-items: center;
+   }
+
+   .container4 {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+   }
+
+   .articoli {
+
+    flex-basis: 50%;
+    padding: 50px;
+   }
+
+   .articoli .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   }
+   
+   .articoli .author {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+   }
+   
+   .articoli .incipit {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+   .articoli .date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+   }
+
+   .articoli .immagine {
+    
+   }
+
+    .aside {
+        
+      
+   }
+   
