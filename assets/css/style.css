@@ -14,7 +14,7 @@ body {
     z-index: 2;
 }
 
-
+/* .active { background-color: #fff}*/
 
 nav li {
     display: inline;
@@ -26,7 +26,7 @@ li a {
     color: black;
 }
 
-nav button {
+#bottone {
     color: white;
     background-color: black;
     border-radius: 25px;
@@ -44,12 +44,12 @@ nav button {
 }
 
 
-header {
+main {
 
     padding: 100px;
 }
 
-header h2 {
+main h2 {
 
     font-family: 'Spectral', serif;
     font-weight: 400;
@@ -57,12 +57,12 @@ header h2 {
     margin-bottom: 10px;
 }
 
-header p {
+main p {
 
 margin-bottom: 20px;
 }
 
-header button {
+main button {
     color: white;
     background-color: black;
     border-radius: 25px;
@@ -160,8 +160,8 @@ header button {
 
    .articoli div {
     
-    width: 60%;
-    margin-left: 100px;
+    width: 70%;
+    margin-left: 80px;
    }
 
    .categorie {
@@ -173,6 +173,7 @@ header button {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+    width: 60%;
    }
    
    .articoli .author {
@@ -185,6 +186,7 @@ header button {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    width: 50%;
 }
 
    .articoli .date {
@@ -202,10 +204,15 @@ header button {
 
 .articoli .anteprima img {
 
-    width: 100px;
-    justify-content:right;
+    width: 150px;
+    float: right;
+    margin-left: 15px;
 }
 
+#segnalibro {
+
+    float: right;
+}
 .categorie p {
     margin-bottom: 5px;
 }
